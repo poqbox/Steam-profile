@@ -23,3 +23,7 @@ body {}
     flex-basis: 300px;
     margin-top: 20px;
 }
+
+.showcases > * > .stats {
+    display: flex;
+}
