@@ -4,16 +4,22 @@ body {
     background-color: #222222;
 }
 
+figure > * {
+    margin: 0;
+}
+
 .profile-container {
     background-color: rgba(255, 166, 0, 0.4);
     max-width: 1000px;
     width: 100%;
     margin: auto;
+    padding: 12px;
 }
 
 .profile-header {
     display: flex;
     justify-content: space-between;
+    padding: 12px;
 }
 .profile-box-1 {
     flex-basis: 200px;
@@ -28,6 +34,43 @@ body {
     margin-top: 20px;
 }
 
-.showcases > * > .stats {
+.showcases > * {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-weight: lighter;
+}
+
+.showcases > * > header {
+    background-color: chocolate;
+    padding: 10px 10px;
+    border-radius: 4px 4px 0 0;
+    font-weight: lighter;
+}
+
+.showcase-body {
+    padding: 10px 10px;
+}
+
+.showcase-body > .stats {
     display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+}
+
+.showcase-body > .stats > figure {
+    margin: 20px 20px 10px 10px;
+}
+
+.showcase-body > .stats > figure > :not(figcaption) {
+    font-size: 40px;
+}
+
+.showcase-body > .stats > figure > figcaption {
+    color: lightgray;
+    margin-top: 10px;
+}
+
+.showcases h5 {
+    font-weight: normal;
+    color: lightgray;
 }
