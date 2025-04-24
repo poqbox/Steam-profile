@@ -90,3 +90,30 @@ figure > * {
     font-weight: normal;
     color: lightgray;
 }
+
+.side-content {
+    color: lightgray;
+    padding: 10px;
+}
+.side-content > header {
+    margin-bottom: 40px;
+}
+.side-content .status {
+    font-size: 20px;
+}
+.side-content > .body > * {
+    margin-top: 12px;
+}
+.side-content > .body > * > a {
+    color: #f0f0f0;
+    font-size: 14px;
+    text-decoration: none;
+}
+.side-content > .body > * > a:hover {
+    text-decoration: underline;
+}
+.side-content > .body > * > a > span {
+    color: lightgray;
+    font-size: 24px;
+    margin-left: 8px;
+}
