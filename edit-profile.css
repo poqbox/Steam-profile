@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #272d32;
+}
+
+* {
+    margin: 0;
+}
+p {
+    color: lightgray;
+    font-size: 16px;
+}
+form h3 {
+    font-weight: normal;
+    font-size: 14px;
+}
+fieldset {
+    border: none;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.container > header {
+    display: flex;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #30353d;
+}
+.avatar {
+    width: 70px;
+}
+.alias {
+    margin-left: 20px;
+    text-decoration: none;
+}
+.alias * {
+    font-size: 24px;
+}
+
+.back-to-profile {
+    text-align: right;
+    font-size: 12px;
+    padding: 16px;
+}
+.back-to-profile a {
+    color: lightgray;
+}
+
+.body {
+    display: flex;
+}
+.body > nav {
+    flex-basis: 34%;
+    margin-right: 22px;
+}
+.body > nav > ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.body > nav > ul li {
+    border-radius: 4px;
+    padding: 10px;
+    margin: 4px;
+}
+.body > nav > ul li:is(.link-general) {
+    background-color: #3e4450;
+}
+.body > nav > ul > a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.body-main > h2 {
+    margin-bottom: 2px;
+}
+.body-main > p {
+    margin-bottom: 32px;
+}

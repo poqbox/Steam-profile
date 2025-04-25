@@ -9,7 +9,7 @@ body {
 }
 p {
     color: lightgray;
-    font-size: 12px
+    font-size: 12px;
 }
 input::placeholder {
     font-style: italic;
