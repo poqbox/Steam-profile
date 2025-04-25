@@ -7,6 +7,10 @@ body {
 * {
     margin: 0;
 }
+p {
+    color: lightgray;
+    font-size: 12px
+}
 
 .profile-container {
     background-color: rgba(255, 166, 0, 0.4);
@@ -38,32 +42,31 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-.profile-body > aside {
+.main-content {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.side-content {
     flex-basis: 300px;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
 }
 
-.profile-body > .showcases {
-    flex-grow: 1;
-    margin-right: 10px;
-}
-
-.showcases > * {
+.showcases > *, .recent-activity {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     font-weight: lighter;
+    margin-bottom: 12px;
+
+    & header {
+        background-color: chocolate;
+        padding: 10px 10px;
+        border-radius: 4px 4px 0 0;
+        font-weight: lighter;
+    }
 }
 
-.showcases > * > header {
-    background-color: chocolate;
-    padding: 10px 10px;
-    border-radius: 4px 4px 0 0;
-    font-weight: lighter;
-}
-
-.showcase-body {
+.showcase-body, .recent-activity-body {
     padding: 10px 10px;
 }
 
@@ -72,23 +75,30 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 4px;
 }
-
 .showcase-body > .stats > figure {
     margin: 20px 20px 10px 10px;
 }
-
 .showcase-body > .stats > figure > :not(figcaption) {
     font-size: 40px;
 }
-
 .showcase-body > .stats > figure > figcaption {
     color: lightgray;
     margin-top: 10px;
 }
-
 .showcases h5 {
     font-weight: normal;
     color: lightgray;
+}
+
+.recent-activity-body > * {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 8px 10px;
+}
+.activity-name {
+    flex-grow: 1;
 }
 
 .side-content {
@@ -116,4 +126,7 @@ body {
     color: lightgray;
     font-size: 24px;
     margin-left: 8px;
+}
+.side-content > .body > .groups {
+    margin-top: 40px;
 }
