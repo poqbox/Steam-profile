@@ -52,7 +52,11 @@ input::placeholder {
 .side-content {
     flex-basis: 300px;
     background-color: rgba(0, 0, 0, 0.3);
+    color: lightgray;
     border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 40px;
+    height: fit-content;
 }
 
 .showcases > *, .recent-activity, .comments {
@@ -121,6 +125,9 @@ input::placeholder {
     color: #f0f0f0;
 }
 
+.comments {
+    margin-top: 80px;
+}
 .add-comment-box {
     padding: 10px 10px 20px 10px;
 }
@@ -136,10 +143,6 @@ input::placeholder {
     flex-grow: 1;
 }
 
-.side-content {
-    color: lightgray;
-    padding: 10px;
-}
 .side-content > header {
     margin-bottom: 40px;
 }
