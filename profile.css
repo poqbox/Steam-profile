@@ -11,6 +11,9 @@ p {
     color: lightgray;
     font-size: 12px
 }
+input::placeholder {
+    font-style: italic;
+}
 
 .profile-container {
     background-color: rgba(255, 166, 0, 0.4);
@@ -52,7 +55,7 @@ p {
     border-radius: 4px;
 }
 
-.showcases > *, .recent-activity {
+.showcases > *, .recent-activity, .comments {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     font-weight: lighter;
@@ -66,11 +69,11 @@ p {
     }
 }
 
-.showcase-body, .recent-activity-body {
+.showcase-body, .recent-activity-body, .comments-body {
     padding: 10px 10px;
 }
 
-.showcase-body > .stats {
+.showcase-body > .stats, .add-comment-box {
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 4px;
@@ -97,8 +100,27 @@ p {
     margin-top: 20px;
     padding: 8px 10px;
 }
+.activity-img {
+    width: 200px;
+    margin-right: 6px;
+}
 .activity-name {
     flex-grow: 1;
+    color: #f0f0f0;
+}
+
+.add-comment-box {
+    padding: 10px;
+}
+.comment-box-avatar {
+    width: 40px;
+    margin-right: 10px;
+    border: 2px solid gray;
+}
+.comment-box {
+    border: 2px solid gray;
+    border-radius: 2px;
+    background-color: #292929;
 }
 
 .side-content {
