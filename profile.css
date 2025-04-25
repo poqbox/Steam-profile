@@ -40,6 +40,10 @@ input::placeholder {
 .profile-box-3 {
     flex-basis: 300px;
     margin-top: 20px;
+
+    & * {
+        margin-bottom: 20px;
+    }
 }
 .alias, .level {
     font-size: 24px;
@@ -47,13 +51,18 @@ input::placeholder {
 .edit-profile-button {
     background-color: rgba(0, 0, 0, 0.3);
     width: fit-content;
-    padding: 4px 8px;
-    margin-top: 10px;
-}
-.edit-profile-button > a {
+    padding: 6px 8px;
+    border-radius: 2px;
     color: lightgray;
     text-decoration: none;
     font-size: 14px;
+    transition-property: background-color, color;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+.edit-profile-button:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+    color: #f0f0f0;
 }
 
 .profile-body {
