@@ -73,6 +73,10 @@ input::placeholder {
     padding: 10px 10px;
 }
 
+.showcase-body > * {
+    margin-top: 10px;
+}
+
 .showcase-body > .stats, .add-comment-box {
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
@@ -91,6 +95,14 @@ input::placeholder {
 .showcases h5 {
     font-weight: normal;
     color: lightgray;
+}
+.featured-games {
+    display: flex;
+    justify-content: space-between;
+}
+.featured-games > img {
+    flex-basis: 24%;
+    height: 50px;
 }
 
 .recent-activity-body > * {
