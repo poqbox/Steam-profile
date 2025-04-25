@@ -68,7 +68,7 @@ fieldset {
     padding: 10px;
     margin: 4px;
 }
-.body > nav > ul li:is(.link-general) {
+.body > nav > ul li:is(#link-general) {
     background-color: #3e4450;
 }
 .body > nav > ul > a {
