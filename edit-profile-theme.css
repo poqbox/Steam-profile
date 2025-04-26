@@ -69,14 +69,14 @@ fieldset {
     margin: 6px;
     font-size: 14px;
 }
-.body > nav > ul li#link-general {
+.body > nav > ul li#link-theme {
     background-color: #3e4450;
 }
 .body > nav > ul > a {
     color: lightgray;
     text-decoration: none;
 }
-.body > nav > ul li:not(#link-general) {
+.body > nav > ul li:not(#link-theme) {
     background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, #3e4450 50%);
     background-size: 200% 100%;
     background-position: right;
@@ -84,7 +84,7 @@ fieldset {
     transition-duration: 160ms;
     transition-timing-function: ease-in;
 }
-.body > nav > ul li:not(#link-general):hover {
+.body > nav > ul li:not(#link-theme):hover {
     background-position: left;
 }
 
@@ -96,4 +96,55 @@ fieldset {
 }
 .body-main > p {
     margin-bottom: 32px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+.theme-selector {
+    background-color: #1d2024;
+    border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.theme-selector h3 {
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.theme-selector td > div {
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+    border-radius: 100px;
+    border: 4px solid #2f333b;
+    opacity: 0.75;
+    transition-property: opacity, box-shadow;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.theme-selector td > div:hover {
+    opacity: 1;
+    box-shadow: 0 0 8px 1px #161616;
+}
+.theme-selector .theme-default {
+    background: linear-gradient(to right, #343d41, #323638);
+}
+.theme-selector .theme-summer {
+    background: linear-gradient(to right, #876524, #976f1f);
+}
+.theme-selector .theme-midnight {
+    background: linear-gradient(to right, #020409, #02040c);
+}
+.theme-selector .theme-steel {
+    background: linear-gradient(to right, #4d525e, #4a515e);
+}
+.theme-selector .theme-cosmic {
+    background: linear-gradient(to right, #633674, #72327c);
+}
+.theme-selector .theme-dark-mode {
+    background: linear-gradient(to right, #1b1b1b, #191919);
 }
