@@ -1,7 +1,10 @@
 body {
     font-family: Verdana, Tahoma, Arial, sans-serif;
     color: #f0f0f0;
-    background-color: #222222;
+    background-color: #000000;
+    background-image: url(https://cdn.steamstatic.com/steamcommunity/public/images/items/1465680/ee46cc3b6988057d435be7e391472d46f278d87a.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 * {
@@ -16,7 +19,7 @@ input::placeholder {
 }
 
 .profile-container {
-    background-color: rgba(255, 166, 0, 0.4);
+    background-color: rgba(34, 34, 34, 0.4);
     max-width: 1000px;
     width: 100%;
     margin: auto;
