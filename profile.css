@@ -86,6 +86,10 @@ input::placeholder {
     height: fit-content;
 }
 
+.showcases > *, .recent-activity, .comments, .side-content {
+    backdrop-filter: blur(10px);
+}
+
 .showcases > *, .recent-activity, .comments {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
