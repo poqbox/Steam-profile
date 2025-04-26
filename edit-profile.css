@@ -108,7 +108,7 @@ label {
     font-size: 12px;
     color: gray;
 }
-input:not([type="button"], [type="submit"]), select, textarea {
+input:not([type="button"], [type="submit"]), select, blockquote {
     font-size: 14px;
     color: lightgray;
     background-color: #161719;
@@ -128,9 +128,10 @@ select {
     background-color: #444444;
     border: none;
 }
-textarea {
-    height: 60px;
-    line-height: normal;
+blockquote {
+    height: auto;
+    line-height: 22px;
+    min-height: 46px;
 }
 
 .confirmation-buttons {
