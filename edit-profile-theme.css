@@ -11,13 +11,6 @@ p {
     color: lightgray;
     font-size: 14px;
 }
-form h3 {
-    font-weight: normal;
-    font-size: 14px;
-}
-fieldset {
-    border: none;
-}
 
 .container {
     max-width: 1000px;
@@ -99,6 +92,14 @@ fieldset {
     margin-bottom: 32px;
 }
 
+form h3 {
+    font-weight: normal;
+    font-size: 14px;
+}
+fieldset {
+    border: none;
+    padding: 20px;
+}
 table {
     width: 100%;
     table-layout: fixed;
