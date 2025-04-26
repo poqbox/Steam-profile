@@ -24,6 +24,7 @@ fieldset {
     width: 100%;
     margin: auto;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .container > header {
@@ -148,8 +149,10 @@ table {
 .theme-selector .theme-dark-mode {
     background: linear-gradient(to right, #1b1b1b, #191919);
 }
+
 .confirmation-buttons {
     text-align: end;
+    margin-top: 30px;
 }
 input[type="button"], input[type="submit"] {
     font-size: 14px;

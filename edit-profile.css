@@ -17,6 +17,7 @@ p {
     width: 100%;
     margin: auto;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .container > header {
@@ -121,14 +122,15 @@ input:not([type="button"], [type="submit"]), select {
     height: 30px;
     line-height: 36px;
     margin-top: 4px;
-    margin-bottom: 20px;
 }
 select {
     background-color: #444444;
     border: none;
 }
+
 .confirmation-buttons {
     text-align: end;
+    margin-top: 30px;
 }
 input[type="button"], input[type="submit"] {
     font-size: 14px;
