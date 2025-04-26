@@ -173,6 +173,8 @@ input::placeholder {
     border-radius: 2px;
     background-color: #292929;
     flex-grow: 1;
+    padding: 6px;
+    outline: none;
 }
 
 .side-content > header {
