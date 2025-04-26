@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Tahoma, Arial, sans-serif;
     color: #f0f0f0;
-    background-color: #272d32;
+    background: linear-gradient(to bottom, #272d32, #1d1e20);
 }
 
 * {
@@ -77,7 +77,7 @@ fieldset {
     text-decoration: none;
 }
 .body > nav > ul li:not(#link-general) {
-    background: linear-gradient(to left, #272d32 50%, #3e4450 50%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, #3e4450 50%);
     background-size: 200% 100%;
     background-position: right;
     transition-property: background-position;
