@@ -148,3 +148,25 @@ table {
 .theme-selector .theme-dark-mode {
     background: linear-gradient(to right, #1b1b1b, #191919);
 }
+.confirmation-buttons {
+    text-align: end;
+}
+input[type="button"], input[type="submit"] {
+    font-size: 14px;
+    color: lightgray;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(to right, #474d58, #474d58);
+    opacity: 0.9;
+    transition-property: opacity, box-shadow;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+    opacity: 1;
+    box-shadow: 0 0 8px 1px #161616;}
+input[type="submit"] {
+    background: linear-gradient(to right, #66bffe, #4483df);
+}
