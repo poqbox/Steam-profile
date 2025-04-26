@@ -69,6 +69,9 @@ input::placeholder {
     color: #f0f0f0;
 }
 
+.avatar {
+    border: 2px solid gray;
+}
 .profile-body {
     display: flex;
     justify-content: space-between;
@@ -138,7 +141,8 @@ input::placeholder {
 }
 .featured-games > img {
     flex-basis: 24%;
-    height: 50px;
+    height: 54px;
+    object-fit: cover;
 }
 
 .recent-activity-body > * {
@@ -149,8 +153,10 @@ input::placeholder {
     padding: 8px 10px;
 }
 .activity-img {
-    width: 200px;
     margin-right: 6px;
+    width: 184px;
+    height: 69px;
+    object-fit: cover;
 }
 .activity-name {
     flex-grow: 1;
